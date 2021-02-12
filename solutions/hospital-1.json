@@ -1,6 +1,10 @@
 {
     "dtmis": ["dtmi:com:example:Floor;1", "dtmi:com:example:Room;1"],
     "twins": [{
+            "dtmi": "dtmi:com:example:Floor;1",
+            "id": "Floor"
+        },
+        {
             "dtmi": "dtmi:com:example:Room;1",
             "id": "Room1",
             "properties": {
@@ -9,6 +13,15 @@
                     "$metadata": {},
                     "setPointTemp": 13.12
                 }
+            },
+            "relationship": {
+                "id": "rel1",
+                "properties": {
+                    "ownershipUser": "me",
+                    "ownershipDepartment": "mydepartment"
+                },
+                "type": "contains",
+                "targetTwinId": "Floor"
             }
         },
         {
@@ -20,6 +33,15 @@
                     "$metadata": {},
                     "setPointTemp": 23.12
                 }
+            },
+            "relationship": {
+                "id": "rel2",
+                "properties": {
+                    "ownershipUser": "me",
+                    "ownershipDepartment": "mydepartment"
+                },
+                "type": "contains",
+                "targetTwinId": "Floor"
             }
         },
         {
@@ -31,6 +53,15 @@
                     "$metadata": {},
                     "setPointTemp": 33.12
                 }
+            },
+            "relationship": {
+                "id": "rel3",
+                "properties": {
+                    "ownershipUser": "me",
+                    "ownershipDepartment": "mydepartment"
+                },
+                "type": "contains",
+                "targetTwinId": "Floor"
             }
         }
     ]
