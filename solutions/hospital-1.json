@@ -1,0 +1,13 @@
+{
+    "dtmis": ["dtmi:com:example:floor;1", "dtmi:com:example:room;1"],
+    "twins": [{
+        "dtmi": "dtmi:com:example:room;1",
+        "properties": {
+            "Temperature": 10.2,
+            "Thermostat": {
+                "$metadata": {},
+                "setPointTemp": 23.12
+            }
+        }
+    }]
+}
