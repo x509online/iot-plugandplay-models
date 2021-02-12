@@ -1,7 +1,7 @@
 {
-    "dtmis": ["dtmi:com:example:floor;1", "dtmi:com:example:room;1"],
+    "dtmis": ["dtmi:com:example:Floor;1", "dtmi:com:example:Room;1"],
     "twins": [{
-            "dtmi": "dtmi:com:example:room;1",
+            "dtmi": "dtmi:com:example:Room;1",
             "id": "Room1",
             "properties": {
                 "Temperature": 10.2,
@@ -12,7 +12,7 @@
             }
         },
         {
-            "dtmi": "dtmi:com:example:room;1",
+            "dtmi": "dtmi:com:example:Room;1",
             "id": "Room2",
             "properties": {
                 "Temperature": 10.2,
@@ -23,7 +23,7 @@
             }
         },
         {
-            "dtmi": "dtmi:com:example:room;1",
+            "dtmi": "dtmi:com:example:Room;1",
             "id": "Room3",
             "properties": {
                 "Temperature": 10.2,
