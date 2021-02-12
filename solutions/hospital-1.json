@@ -1,10 +1,6 @@
 {
     "dtmis": ["dtmi:com:example:Floor;1", "dtmi:com:example:Room;1"],
     "twins": [{
-            "dtmi": "dtmi:com:example:Floor;1",
-            "id": "Floor"
-        },
-        {
             "dtmi": "dtmi:com:example:Room;1",
             "id": "Room1",
             "properties": {
@@ -13,15 +9,6 @@
                     "$metadata": {},
                     "setPointTemp": 13.12
                 }
-            },
-            "relationship": {
-                "id": "rel1",
-                "properties": {
-                    "ownershipUser": "me",
-                    "ownershipDepartment": "mydepartment"
-                },
-                "type": "contains",
-                "targetTwinId": "Floor"
             }
         },
         {
@@ -33,15 +20,6 @@
                     "$metadata": {},
                     "setPointTemp": 23.12
                 }
-            },
-            "relationship": {
-                "id": "rel2",
-                "properties": {
-                    "ownershipUser": "me",
-                    "ownershipDepartment": "mydepartment"
-                },
-                "type": "contains",
-                "targetTwinId": "Floor"
             }
         },
         {
@@ -53,16 +31,39 @@
                     "$metadata": {},
                     "setPointTemp": 33.12
                 }
-            },
-            "relationship": {
-                "id": "rel3",
-                "properties": {
-                    "ownershipUser": "me",
-                    "ownershipDepartment": "mydepartment"
-                },
-                "type": "contains",
-                "targetTwinId": "Floor"
             }
+        },
+        {
+            "dtmi": "dtmi:com:example:Floor;1",
+            "id": "Floor",
+            "relationships": [{
+                    "id": "rel1",
+                    "properties": {
+                        "ownershipUser": "Dr.A",
+                        "ownershipDepartment": "BrainSurgery"
+                    },
+                    "type": "contains",
+                    "targetTwinId": "Room1"
+                },
+                {
+                    "id": "rel2",
+                    "properties": {
+                        "ownershipUser": "Dr.B",
+                        "ownershipDepartment": "HeartSurgery"
+                    },
+                    "type": "contains",
+                    "targetTwinId": "Room2"
+                },
+                {
+                    "id": "rel3",
+                    "properties": {
+                        "ownershipUser": "Dr.C",
+                        "ownershipDepartment": "LungSurgery"
+                    },
+                    "type": "contains",
+                    "targetTwinId": "Room3"
+                }
+            ]
         }
     ]
 }
