@@ -4,8 +4,7 @@
   "@type": "Interface",
   "displayName": "Thermostat",
   "description": "Reports current temperature and provides desired temperature control.",
-  "contents": [
-    {
+  "contents": [{
       "@type": [
         "Telemetry",
         "Temperature"
@@ -15,6 +14,12 @@
       "description": "Temperature in degrees Celsius.",
       "schema": "double",
       "unit": "degreeCelsius"
+    },
+    {
+      "@type": "Property",
+      "name": "setPointTemp",
+      "writable": true,
+      "schema": "double"
     },
     {
       "@type": [
@@ -55,8 +60,7 @@
         "displayName": "Temperature Report",
         "schema": {
           "@type": "Object",
-          "fields": [
-            {
+          "fields": [{
               "name": "maxTemp",
               "displayName": "Max temperature",
               "schema": "double"
