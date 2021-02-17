@@ -1,7 +1,7 @@
 {
-    "dtmis": ["dtmi:com:example:Floor;1", "dtmi:com:example:Room;1"],
+    "dtmis": ["dtmi:com:example:Floor;1", "dtmi:com:example:Room;1", "dtmi:com:example:Building;1"],
     "twins": [{
-            "dtmi": "dtmi:com:example:Room;1",
+            "dtmi": "dtmi:com:example:Building;1",
             "id": "HospitalBuilding",
             "relationships": [{
                     "id": "rootRel1",
@@ -21,12 +21,7 @@
                     "type": "contains",
                     "targetTwinId": "Floor2"
                 }
-            ],
-            "properties": {
-                "Thermostat": {
-                    "$metadata": {}
-                }
-            }
+            ]
         },
         {
             "dtmi": "dtmi:com:example:Room;1",
