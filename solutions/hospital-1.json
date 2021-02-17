@@ -2,6 +2,34 @@
     "dtmis": ["dtmi:com:example:Floor;1", "dtmi:com:example:Room;1"],
     "twins": [{
             "dtmi": "dtmi:com:example:Room;1",
+            "id": "HospitalBuilding",
+            "relationships": [{
+                    "id": "rootRel1",
+                    "properties": {
+                        "ownershipUser": "Seattle",
+                        "ownershipDepartment": "Seattle"
+                    },
+                    "type": "contains",
+                    "targetTwinId": "Floor1"
+                },
+                {
+                    "id": "rootRel2",
+                    "properties": {
+                        "ownershipUser": "Seattle",
+                        "ownershipDepartment": "Seattle"
+                    },
+                    "type": "contains",
+                    "targetTwinId": "Floor2"
+                }
+            ],
+            "properties": {
+                "Thermostat": {
+                    "$metadata": {}
+                }
+            }
+        },
+        {
+            "dtmi": "dtmi:com:example:Room;1",
             "id": "Room1",
             "properties": {
                 "Temperature": 10.2,
@@ -34,8 +62,41 @@
             }
         },
         {
+            "dtmi": "dtmi:com:example:Room;1",
+            "id": "Room4",
+            "properties": {
+                "Temperature": 10.2,
+                "Thermostat": {
+                    "$metadata": {},
+                    "setPointTemp": 13.12
+                }
+            }
+        },
+        {
+            "dtmi": "dtmi:com:example:Room;1",
+            "id": "Room5",
+            "properties": {
+                "Temperature": 10.2,
+                "Thermostat": {
+                    "$metadata": {},
+                    "setPointTemp": 23.12
+                }
+            }
+        },
+        {
+            "dtmi": "dtmi:com:example:Room;1",
+            "id": "Room6",
+            "properties": {
+                "Temperature": 10.2,
+                "Thermostat": {
+                    "$metadata": {},
+                    "setPointTemp": 33.12
+                }
+            }
+        },
+        {
             "dtmi": "dtmi:com:example:Floor;1",
-            "id": "Floor",
+            "id": "Floor1",
             "relationships": [{
                     "id": "rel1",
                     "properties": {
@@ -62,6 +123,38 @@
                     },
                     "type": "contains",
                     "targetTwinId": "Room3"
+                }
+            ]
+        },
+        {
+            "dtmi": "dtmi:com:example:Floor;2",
+            "id": "Floor2",
+            "relationships": [{
+                    "id": "rel4",
+                    "properties": {
+                        "ownershipUser": "Dr.D",
+                        "ownershipDepartment": "BrainSurgery"
+                    },
+                    "type": "contains",
+                    "targetTwinId": "Room4"
+                },
+                {
+                    "id": "rel5",
+                    "properties": {
+                        "ownershipUser": "Dr.E",
+                        "ownershipDepartment": "HeartSurgery"
+                    },
+                    "type": "contains",
+                    "targetTwinId": "Room5"
+                },
+                {
+                    "id": "rel6",
+                    "properties": {
+                        "ownershipUser": "Dr.F",
+                        "ownershipDepartment": "LungSurgery"
+                    },
+                    "type": "contains",
+                    "targetTwinId": "Room6"
                 }
             ]
         }
