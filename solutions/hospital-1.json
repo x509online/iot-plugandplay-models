@@ -127,7 +127,7 @@
             ]
         },
         {
-            "dtmi": "dtmi:com:example:Floor;2",
+            "dtmi": "dtmi:com:example:Floor;1",
             "id": "Floor2",
             "relationships": [{
                     "id": "rel4",
