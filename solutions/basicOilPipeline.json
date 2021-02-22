@@ -1,4 +1,8 @@
 {
+    "name": "BasicOilTanker",
+    "industries": ["Petroleum", "Transportation"],
+    "description": "Represents an organization of digital twins designed for managing an oil tanker vessel.",
+    "tags": [],
     "dtmis": ["dtmi:com:example:Floor;1", "dtmi:com:example:Room;1", "dtmi:com:example:Building;1"],
     "twins": [{
             "dtmi": "dtmi:com:example:Building;1",
