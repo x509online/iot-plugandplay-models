@@ -174,10 +174,7 @@
         },
         {
             "id": "TemperatureR",
-            "dtmi": "dtmi:digitaltwins:rec_3_3:core:TemperatureSensor;1",
-            "properties": {
-                "hasValue": 70
-            }
+            "dtmi": "dtmi:digitaltwins:rec_3_3:core:TemperatureSensor;1"
         }
     ]
 }
