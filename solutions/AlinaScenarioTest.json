@@ -1,0 +1,183 @@
+{
+    "name": "AlinaScenarioTest",
+    "industries": ["Xyz"],
+    "description": "Test dedicated to Alina.",
+    "tags": [],
+    "dtmis": [
+        "dtmi:digitaltwins:rec_3_3:core:Building;1",
+        "dtmi:digitaltwins:rec_3_3:core:Level;1",
+        "dtmi:digitaltwins:rec_3_3:asset:VAVBox;1",
+        "dtmi:digitaltwins:rec_3_3:building:OfficeRoom;1",
+        "dtmi:digitaltwins:rec_3_3:core:TemperatureSensor;1"
+    ],
+    "twins": [{
+            "id": "Building121",
+            "dtmi": "dtmi:digitaltwins:rec_3_3:core:Building;1",
+            "properties": {
+                "CO2": {
+                    "$metadata": {}
+                },
+                "area": {
+                    "$metadata": {}
+                },
+                "capacity": {
+                    "$metadata": {}
+                },
+                "humidity": {
+                    "$metadata": {}
+                },
+                "occupancy": {
+                    "$metadata": {}
+                },
+                "temperature": {
+                    "$metadata": {}
+                }
+            }
+        },
+        {
+            "id": "Level1",
+            "dtmi": "dtmi:digitaltwins:rec_3_3:core:Level;1",
+            "properties": {
+                "CO2": {
+                    "$metadata": {}
+                },
+                "area": {
+                    "$metadata": {}
+                },
+                "capacity": {
+                    "$metadata": {}
+                },
+                "humidity": {
+                    "$metadata": {}
+                },
+                "levelNumber": 1,
+                "occupancy": {
+                    "$metadata": {}
+                },
+                "temperature": {
+                    "$metadata": {}
+                }
+            }
+        },
+        {
+            "id": "VAV.L1.01",
+            "dtmi": "dtmi:digitaltwins:rec_3_3:asset:VAVBox;1",
+            "properties": {
+                "ductInlet": {
+                    "$metadata": {}
+                }
+            }
+        },
+        {
+            "id": "VAV.L1.02",
+            "dtmi": "dtmi:digitaltwins:rec_3_3:asset:VAVBox;1",
+            "properties": {
+                "ductInlet": {
+                    "$metadata": {}
+                },
+                "serialNumber": "2561A5510"
+            }
+        },
+        {
+            "id": "VAV.L1.03",
+            "dtmi": "dtmi:digitaltwins:rec_3_3:asset:VAVBox;1",
+            "properties": {
+                "ductInlet": {
+                    "$metadata": {}
+                },
+                "serialNumber": "2561A5510"
+            }
+        },
+        {
+            "id": "Room101",
+            "dtmi": "dtmi:digitaltwins:rec_3_3:building:OfficeRoom;1",
+            "properties": {
+                "CO2": {
+                    "$metadata": {}
+                },
+                "area": {
+                    "$metadata": {}
+                },
+                "capacity": {
+                    "$metadata": {}
+                },
+                "humidity": {
+                    "$metadata": {}
+                },
+                "occupancy": {
+                    "$metadata": {}
+                },
+                "temperature": {
+                    "$metadata": {}
+                }
+            }
+        },
+        {
+            "id": "Room102",
+            "dtmi": "dtmi:digitaltwins:rec_3_3:building:OfficeRoom;1",
+            "properties": {
+                "CO2": {
+                    "$metadata": {}
+                },
+                "area": {
+                    "$metadata": {}
+                },
+                "capacity": {
+                    "$metadata": {}
+                },
+                "humidity": {
+                    "$metadata": {}
+                },
+                "occupancy": {
+                    "$metadata": {}
+                },
+                "temperature": {
+                    "$metadata": {}
+                }
+            }
+        },
+        {
+            "id": "Room103",
+            "dtmi": "dtmi:digitaltwins:rec_3_3:building:OfficeRoom;1",
+            "properties": {
+                "CO2": {
+                    "$metadata": {}
+                },
+                "area": {
+                    "$metadata": {}
+                },
+                "capacity": {
+                    "$metadata": {}
+                },
+                "humidity": {
+                    "$metadata": {}
+                },
+                "occupancy": {
+                    "$metadata": {}
+                },
+                "temperature": {
+                    "$metadata": {}
+                }
+            }
+        },
+        {
+            "id": "Temperature1",
+            "dtmi": "dtmi:digitaltwins:rec_3_3:core:TemperatureSensor;1"
+        },
+        {
+            "id": "Temperature2",
+            "dtmi": "dtmi:digitaltwins:rec_3_3:core:TemperatureSensor;1"
+        },
+        {
+            "id": "Temperature3",
+            "dtmi": "dtmi:digitaltwins:rec_3_3:core:TemperatureSensor;1"
+        },
+        {
+            "id": "TemperatureR",
+            "dtmi": "dtmi:digitaltwins:rec_3_3:core:TemperatureSensor;1",
+            "properties": {
+                "hasValue": 70
+            }
+        }
+    ]
+}
