@@ -57,7 +57,12 @@
                 "temperature": {
                     "$metadata": {}
                 }
-            }
+            },
+            "relationships": [{
+                "id": "edge",
+                "type": "isPartOf",
+                "targetTwinId": "Building121"
+            }]
         },
         {
             "id": "VAV.L1.01",
@@ -66,7 +71,18 @@
                 "ductInlet": {
                     "$metadata": {}
                 }
-            }
+            },
+            "relationships": [{
+                    "id": "edge",
+                    "type": "locatedIn",
+                    "targetTwinId": "Room101"
+                },
+                {
+                    "id": "edge1",
+                    "type": "hasCapability",
+                    "targetTwinId": "Temperature1"
+                }
+            ]
         },
         {
             "id": "VAV.L1.02",
@@ -76,7 +92,18 @@
                     "$metadata": {}
                 },
                 "serialNumber": "2561A5510"
-            }
+            },
+            "relationships": [{
+                    "id": "edge",
+                    "type": "locatedIn",
+                    "targetTwinId": "Room102"
+                },
+                {
+                    "id": "edge2",
+                    "type": "hasCapability",
+                    "targetTwinId": "Temperature2"
+                }
+            ]
         },
         {
             "id": "VAV.L1.03",
@@ -86,7 +113,18 @@
                     "$metadata": {}
                 },
                 "serialNumber": "2561A5510"
-            }
+            },
+            "relationships": [{
+                    "id": "edge",
+                    "type": "locatedIn",
+                    "targetTwinId": "Room103"
+                },
+                {
+                    "id": "edge3",
+                    "type": "hasCapability",
+                    "targetTwinId": "Temperature3"
+                }
+            ]
         },
         {
             "id": "Room101",
@@ -110,7 +148,18 @@
                 "temperature": {
                     "$metadata": {}
                 }
-            }
+            },
+            "relationships": [{
+                    "id": "edge",
+                    "type": "isPartOf",
+                    "targetTwinId": "Level1"
+                },
+                {
+                    "id": "edge4",
+                    "type": "hasCapability",
+                    "targetTwinId": "TemperatureR"
+                }
+            ]
         },
         {
             "id": "Room102",
@@ -134,7 +183,12 @@
                 "temperature": {
                     "$metadata": {}
                 }
-            }
+            },
+            "relationships": [{
+                "id": "edge",
+                "type": "isPartOf",
+                "targetTwinId": "Level1"
+            }]
         },
         {
             "id": "Room103",
@@ -158,7 +212,12 @@
                 "temperature": {
                     "$metadata": {}
                 }
-            }
+            },
+            "relationships": [{
+                "id": "edge",
+                "type": "isPartOf",
+                "targetTwinId": "Level1"
+            }]
         },
         {
             "id": "Temperature1",
