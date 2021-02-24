@@ -1,0 +1,234 @@
+{
+    "name": "AlinaScenarioTestVariant",
+    "industries": ["Xyz"],
+    "description": "Test variant dedicated to Alina.",
+    "tags": [],
+    "dtmis": [],
+    "directories": ["dtmi/digitaltwins"],
+    "twins": [{
+            "id": "Building121",
+            "dtmi": "dtmi:digitaltwins:rec_3_3:core:Building;1",
+            "properties": {
+                "CO2": {
+                    "$metadata": {}
+                },
+                "area": {
+                    "$metadata": {}
+                },
+                "capacity": {
+                    "$metadata": {}
+                },
+                "humidity": {
+                    "$metadata": {}
+                },
+                "occupancy": {
+                    "$metadata": {}
+                },
+                "temperature": {
+                    "$metadata": {}
+                }
+            }
+        },
+        {
+            "id": "Level1",
+            "dtmi": "dtmi:digitaltwins:rec_3_3:core:Level;1",
+            "properties": {
+                "CO2": {
+                    "$metadata": {}
+                },
+                "area": {
+                    "$metadata": {}
+                },
+                "capacity": {
+                    "$metadata": {}
+                },
+                "humidity": {
+                    "$metadata": {}
+                },
+                "levelNumber": 1,
+                "occupancy": {
+                    "$metadata": {}
+                },
+                "temperature": {
+                    "$metadata": {}
+                }
+            },
+            "relationships": [{
+                "id": "edge",
+                "type": "isPartOf",
+                "targetTwinId": "Building121"
+            }]
+        },
+        {
+            "id": "VAV.L1.01",
+            "dtmi": "dtmi:digitaltwins:rec_3_3:asset:VAVBox;1",
+            "properties": {
+                "ductInlet": {
+                    "$metadata": {}
+                }
+            },
+            "relationships": [{
+                    "id": "edge",
+                    "type": "locatedIn",
+                    "targetTwinId": "Room101"
+                },
+                {
+                    "id": "edge1",
+                    "type": "hasCapability",
+                    "targetTwinId": "Temperature1"
+                }
+            ]
+        },
+        {
+            "id": "VAV.L1.02",
+            "dtmi": "dtmi:digitaltwins:rec_3_3:asset:VAVBox;1",
+            "properties": {
+                "ductInlet": {
+                    "$metadata": {}
+                },
+                "serialNumber": "2561A5510"
+            },
+            "relationships": [{
+                    "id": "edge",
+                    "type": "locatedIn",
+                    "targetTwinId": "Room102"
+                },
+                {
+                    "id": "edge2",
+                    "type": "hasCapability",
+                    "targetTwinId": "Temperature2"
+                }
+            ]
+        },
+        {
+            "id": "VAV.L1.03",
+            "dtmi": "dtmi:digitaltwins:rec_3_3:asset:VAVBox;1",
+            "properties": {
+                "ductInlet": {
+                    "$metadata": {}
+                },
+                "serialNumber": "2561A5510"
+            },
+            "relationships": [{
+                    "id": "edge",
+                    "type": "locatedIn",
+                    "targetTwinId": "Room103"
+                },
+                {
+                    "id": "edge3",
+                    "type": "hasCapability",
+                    "targetTwinId": "Temperature3"
+                }
+            ]
+        },
+        {
+            "id": "Room101",
+            "dtmi": "dtmi:digitaltwins:rec_3_3:building:OfficeRoom;1",
+            "properties": {
+                "CO2": {
+                    "$metadata": {}
+                },
+                "area": {
+                    "$metadata": {}
+                },
+                "capacity": {
+                    "$metadata": {}
+                },
+                "humidity": {
+                    "$metadata": {}
+                },
+                "occupancy": {
+                    "$metadata": {}
+                },
+                "temperature": {
+                    "$metadata": {}
+                }
+            },
+            "relationships": [{
+                    "id": "edge",
+                    "type": "isPartOf",
+                    "targetTwinId": "Level1"
+                },
+                {
+                    "id": "edge4",
+                    "type": "hasCapability",
+                    "targetTwinId": "TemperatureR"
+                }
+            ]
+        },
+        {
+            "id": "Room102",
+            "dtmi": "dtmi:digitaltwins:rec_3_3:building:OfficeRoom;1",
+            "properties": {
+                "CO2": {
+                    "$metadata": {}
+                },
+                "area": {
+                    "$metadata": {}
+                },
+                "capacity": {
+                    "$metadata": {}
+                },
+                "humidity": {
+                    "$metadata": {}
+                },
+                "occupancy": {
+                    "$metadata": {}
+                },
+                "temperature": {
+                    "$metadata": {}
+                }
+            },
+            "relationships": [{
+                "id": "edge",
+                "type": "isPartOf",
+                "targetTwinId": "Level1"
+            }]
+        },
+        {
+            "id": "Room103",
+            "dtmi": "dtmi:digitaltwins:rec_3_3:building:OfficeRoom;1",
+            "properties": {
+                "CO2": {
+                    "$metadata": {}
+                },
+                "area": {
+                    "$metadata": {}
+                },
+                "capacity": {
+                    "$metadata": {}
+                },
+                "humidity": {
+                    "$metadata": {}
+                },
+                "occupancy": {
+                    "$metadata": {}
+                },
+                "temperature": {
+                    "$metadata": {}
+                }
+            },
+            "relationships": [{
+                "id": "edge",
+                "type": "isPartOf",
+                "targetTwinId": "Level1"
+            }]
+        },
+        {
+            "id": "Temperature1",
+            "dtmi": "dtmi:digitaltwins:rec_3_3:core:TemperatureSensor;1"
+        },
+        {
+            "id": "Temperature2",
+            "dtmi": "dtmi:digitaltwins:rec_3_3:core:TemperatureSensor;1"
+        },
+        {
+            "id": "Temperature3",
+            "dtmi": "dtmi:digitaltwins:rec_3_3:core:TemperatureSensor;1"
+        },
+        {
+            "id": "TemperatureR",
+            "dtmi": "dtmi:digitaltwins:rec_3_3:core:TemperatureSensor;1"
+        }
+    ]
+}
