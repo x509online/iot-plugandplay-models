@@ -1,0 +1,672 @@
+{
+    "name": "ScenarioTestVariant",
+    "industries": ["Xyz"],
+    "description": "Test variant dedicated to Alina.",
+    "tags": [],
+    "dtmis": [
+        "dtmi:digitaltwins:rec_3_3:agents:Company;1",
+        "dtmi:digitaltwins:rec_3_3:agents:Department;1",
+        "dtmi:digitaltwins:rec_3_3:agents:Organization;1",
+        "dtmi:digitaltwins:rec_3_3:agents:Person;1",
+        "dtmi:digitaltwins:rec_3_3:core:Agent;1",
+        "dtmi:digitaltwins:rec_3_3:asset:AccessPanel;1",
+        "dtmi:digitaltwins:rec_3_3:asset:Door;1",
+        "dtmi:digitaltwins:rec_3_3:asset:Partition;1",
+        "dtmi:digitaltwins:rec_3_3:asset:Window;1",
+        "dtmi:digitaltwins:rec_3_3:asset:BarrierAsset;1",
+        "dtmi:digitaltwins:rec_3_3:asset:ArchitecturalAsset;1",
+        "dtmi:digitaltwins:rec_3_3:asset:DuctConnection;1",
+        "dtmi:digitaltwins:rec_3_3:asset:ElectricalBus;1",
+        "dtmi:digitaltwins:rec_3_3:asset:Fan;1",
+        "dtmi:digitaltwins:rec_3_3:asset:PlumbingHeatTracing;1",
+        "dtmi:digitaltwins:rec_3_3:asset:HeatTracing;1",
+        "dtmi:digitaltwins:rec_3_3:asset:HVACCoolingMethod;1",
+        "dtmi:digitaltwins:rec_3_3:asset:HVACHeatingMethod;1",
+        "dtmi:digitaltwins:rec_3_3:asset:HVACMixingBox;1",
+        "dtmi:digitaltwins:rec_3_3:asset:Pump;1",
+        "dtmi:digitaltwins:rec_3_3:asset:Tank;1",
+        "dtmi:digitaltwins:rec_3_3:asset:Valve;1",
+        "dtmi:digitaltwins:rec_3_3:asset:Component;1",
+        "dtmi:digitaltwins:rec_3_3:asset:Elevator;1",
+        "dtmi:digitaltwins:rec_3_3:asset:ElevatorMachine;1",
+        "dtmi:digitaltwins:rec_3_3:asset:Escalator;1",
+        "dtmi:digitaltwins:rec_3_3:asset:MovingWalkway;1",
+        "dtmi:digitaltwins:rec_3_3:asset:ConveyanceEquipment;1",
+        "dtmi:digitaltwins:rec_3_3:asset:Busway;1",
+        "dtmi:digitaltwins:rec_3_3:asset:ElectricalPanelboardMCB;1",
+        "dtmi:digitaltwins:rec_3_3:asset:ElectricalPanelboardMLO;1",
+        "dtmi:digitaltwins:rec_3_3:asset:ElectricalPanelboard;1",
+        "dtmi:digitaltwins:rec_3_3:asset:Switchboard;1",
+        "dtmi:digitaltwins:rec_3_3:asset:Switchgear;1",
+        "dtmi:digitaltwins:rec_3_3:asset:AutomaticTransferSwitch;1",
+        "dtmi:digitaltwins:rec_3_3:asset:TransferSwitch;1",
+        "dtmi:digitaltwins:rec_3_3:asset:Transformer;1",
+        "dtmi:digitaltwins:rec_3_3:asset:VariableFrequencyDrive;1",
+        "dtmi:digitaltwins:rec_3_3:asset:ElectricalDistributionEquipment;1",
+        "dtmi:digitaltwins:rec_3_3:asset:Cogenerator;1",
+        "dtmi:digitaltwins:rec_3_3:asset:Generator;1",
+        "dtmi:digitaltwins:rec_3_3:asset:UPS;1",
+        "dtmi:digitaltwins:rec_3_3:asset:ElectricalGenerationStorageEquipment;1",
+        "dtmi:digitaltwins:rec_3_3:asset:ElectricalEquipment;1",
+        "dtmi:digitaltwins:rec_3_3:asset:FireAlarmEquipment;1",
+        "dtmi:digitaltwins:rec_3_3:asset:CleanAgentCabinet;1",
+        "dtmi:digitaltwins:rec_3_3:asset:CleanAgentTank;1",
+        "dtmi:digitaltwins:rec_3_3:asset:CleanAgentEquipment;1",
+        "dtmi:digitaltwins:rec_3_3:asset:FireExtinguisher;1",
+        "dtmi:digitaltwins:rec_3_3:asset:FirePump;1",
+        "dtmi:digitaltwins:rec_3_3:asset:FireSprinklerHead;1",
+        "dtmi:digitaltwins:rec_3_3:asset:JockeyPump;1",
+        "dtmi:digitaltwins:rec_3_3:asset:PreActionCabinet;1",
+        "dtmi:digitaltwins:rec_3_3:asset:PreActionTank;1",
+        "dtmi:digitaltwins:rec_3_3:asset:PreActionEquipment;1",
+        "dtmi:digitaltwins:rec_3_3:asset:SprinklerHeatTracing;1",
+        "dtmi:digitaltwins:rec_3_3:asset:SprinklerTank;1",
+        "dtmi:digitaltwins:rec_3_3:asset:SprinklerBackflowPreventer;1",
+        "dtmi:digitaltwins:rec_3_3:asset:SprinklerBalancingValve;1",
+        "dtmi:digitaltwins:rec_3_3:asset:SprinklerCheckValve;1",
+        "dtmi:digitaltwins:rec_3_3:asset:SprinklerGlobeValve;1",
+        "dtmi:digitaltwins:rec_3_3:asset:SprinklerPressureReducingStation;1",
+        "dtmi:digitaltwins:rec_3_3:asset:SprinklerPressureReducingValve;1",
+        "dtmi:digitaltwins:rec_3_3:asset:SprinklerShutOffValve;1",
+        "dtmi:digitaltwins:rec_3_3:asset:SprinklerSolenoidValve;1",
+        "dtmi:digitaltwins:rec_3_3:asset:SprinklerValve;1",
+        "dtmi:digitaltwins:rec_3_3:asset:SprinklerEquipment;1",
+        "dtmi:digitaltwins:rec_3_3:asset:FireSuppressionEquipment;1",
+        "dtmi:digitaltwins:rec_3_3:asset:FireProtectionEquipment;1",
+        "dtmi:digitaltwins:rec_3_3:asset:AirFilter;1",
+        "dtmi:digitaltwins:rec_3_3:asset:DedicatedOutdoorAirSystem;1",
+        "dtmi:digitaltwins:rec_3_3:asset:MakeupAirUnit;1",
+        "dtmi:digitaltwins:rec_3_3:asset:RooftopUnit;1",
+        "dtmi:digitaltwins:rec_3_3:asset:AirHandlingUnit;1",
+        "dtmi:digitaltwins:rec_3_3:asset:Chiller;1",
+        "dtmi:digitaltwins:rec_3_3:asset:CondensingUnit;1",
+        "dtmi:digitaltwins:rec_3_3:asset:CoolingTower;1",
+        "dtmi:digitaltwins:rec_3_3:asset:BackdraftDamper;1",
+        "dtmi:digitaltwins:rec_3_3:asset:FireSmokeDamper;1",
+        "dtmi:digitaltwins:rec_3_3:asset:FireDamper;1",
+        "dtmi:digitaltwins:rec_3_3:asset:SmokeDamper;1",
+        "dtmi:digitaltwins:rec_3_3:asset:Damper;1",
+        "dtmi:digitaltwins:rec_3_3:asset:HeatExchanger;1",
+        "dtmi:digitaltwins:rec_3_3:asset:CeilingFan;1",
+        "dtmi:digitaltwins:rec_3_3:asset:ExhaustFan;1",
+        "dtmi:digitaltwins:rec_3_3:asset:StairPressurizationFan;1",
+        "dtmi:digitaltwins:rec_3_3:asset:SupplyFan;1",
+        "dtmi:digitaltwins:rec_3_3:asset:TransferFan;1",
+        "dtmi:digitaltwins:rec_3_3:asset:HVACFan;1",
+        "dtmi:digitaltwins:rec_3_3:asset:HVACHeatTracing;1",
+        "dtmi:digitaltwins:rec_3_3:asset:HVACPump;1",
+        "dtmi:digitaltwins:rec_3_3:asset:HVACTank;1",
+        "dtmi:digitaltwins:rec_3_3:asset:HVACBackflowPreventer;1",
+        "dtmi:digitaltwins:rec_3_3:asset:HVACBalancingValve;1",
+        "dtmi:digitaltwins:rec_3_3:asset:HVACCheckValve;1",
+        "dtmi:digitaltwins:rec_3_3:asset:HVACGlobeValve;1",
+        "dtmi:digitaltwins:rec_3_3:asset:HVACPressureReducingStation;1",
+        "dtmi:digitaltwins:rec_3_3:asset:HVACPressureReducingValve;1",
+        "dtmi:digitaltwins:rec_3_3:asset:HVACShutOffValve;1",
+        "dtmi:digitaltwins:rec_3_3:asset:HVACSolenoidValve;1",
+        "dtmi:digitaltwins:rec_3_3:asset:HVACValve;1",
+        "dtmi:digitaltwins:rec_3_3:asset:WaterFilter;1",
+        "dtmi:digitaltwins:rec_3_3:asset:HVACWaterTreatment;1",
+        "dtmi:digitaltwins:rec_3_3:asset:CAVBox;1",
+        "dtmi:digitaltwins:rec_3_3:asset:FanCoilUnitReheat;1",
+        "dtmi:digitaltwins:rec_3_3:asset:FanCoilUnit;1",
+        "dtmi:digitaltwins:rec_3_3:asset:FanPoweredBoxReheat;1",
+        "dtmi:digitaltwins:rec_3_3:asset:FanPoweredBox;1",
+        "dtmi:digitaltwins:rec_3_3:asset:VAVBoxReheat;1",
+        "dtmi:digitaltwins:rec_3_3:asset:VAVBox;1",
+        "dtmi:digitaltwins:rec_3_3:asset:TerminalUnit;1",
+        "dtmi:digitaltwins:rec_3_3:asset:ElectricUnitHeater;1",
+        "dtmi:digitaltwins:rec_3_3:asset:HotWaterUnitHeater;1",
+        "dtmi:digitaltwins:rec_3_3:asset:SteamUnitHeater;1",
+        "dtmi:digitaltwins:rec_3_3:asset:UnitHeater;1",
+        "dtmi:digitaltwins:rec_3_3:asset:HVACEquipment;1",
+        "dtmi:digitaltwins:rec_3_3:asset:AudioVisualEquipment;1",
+        "dtmi:digitaltwins:rec_3_3:asset:BACnetController;1",
+        "dtmi:digitaltwins:rec_3_3:asset:ModbusController;1",
+        "dtmi:digitaltwins:rec_3_3:asset:Controller;1",
+        "dtmi:digitaltwins:rec_3_3:asset:EthernetRouter;1",
+        "dtmi:digitaltwins:rec_3_3:asset:EthernetSwitch;1",
+        "dtmi:digitaltwins:rec_3_3:asset:EthernetSwitchPort;1",
+        "dtmi:digitaltwins:rec_3_3:asset:NetworkSecurityEquipment;1",
+        "dtmi:digitaltwins:rec_3_3:asset:WirelessAccessPoint;1",
+        "dtmi:digitaltwins:rec_3_3:asset:DataNetworkEquipment;1",
+        "dtmi:digitaltwins:rec_3_3:asset:Gateway;1",
+        "dtmi:digitaltwins:rec_3_3:asset:ICTHardware;1",
+        "dtmi:digitaltwins:rec_3_3:asset:Server;1",
+        "dtmi:digitaltwins:rec_3_3:asset:ITRack;1",
+        "dtmi:digitaltwins:rec_3_3:asset:DaylightSensorEquipment;1",
+        "dtmi:digitaltwins:rec_3_3:asset:IAQSensorEquipment;1",
+        "dtmi:digitaltwins:rec_3_3:asset:LeakDetectorEquipment;1",
+        "dtmi:digitaltwins:rec_3_3:asset:OccupancySensorEquipment;1",
+        "dtmi:digitaltwins:rec_3_3:asset:PeopleCountSensorEquipment;1",
+        "dtmi:digitaltwins:rec_3_3:asset:ThermostatEquipment;1",
+        "dtmi:digitaltwins:rec_3_3:asset:VibrationSensorEquipment;1",
+        "dtmi:digitaltwins:rec_3_3:asset:SensorEquipment;1",
+        "dtmi:digitaltwins:rec_3_3:asset:ICTEquipment;1",
+        "dtmi:digitaltwins:rec_3_3:asset:LightingController;1",
+        "dtmi:digitaltwins:rec_3_3:asset:Luminaire;1",
+        "dtmi:digitaltwins:rec_3_3:asset:LightingEquipment;1",
+        "dtmi:digitaltwins:rec_3_3:asset:ElectricityMeter;1",
+        "dtmi:digitaltwins:rec_3_3:asset:GasMeter;1",
+        "dtmi:digitaltwins:rec_3_3:asset:ThermalMeter;1",
+        "dtmi:digitaltwins:rec_3_3:asset:WaterMeter;1",
+        "dtmi:digitaltwins:rec_3_3:asset:Meter;1",
+        "dtmi:digitaltwins:rec_3_3:asset:AirCompressor;1",
+        "dtmi:digitaltwins:rec_3_3:asset:Boiler;1",
+        "dtmi:digitaltwins:rec_3_3:asset:FloorDrain;1",
+        "dtmi:digitaltwins:rec_3_3:asset:RoofDrain;1",
+        "dtmi:digitaltwins:rec_3_3:asset:Drain;1",
+        "dtmi:digitaltwins:rec_3_3:asset:Faucet;1",
+        "dtmi:digitaltwins:rec_3_3:asset:FlushometerValve;1",
+        "dtmi:digitaltwins:rec_3_3:asset:Sink;1",
+        "dtmi:digitaltwins:rec_3_3:asset:ToiletFlushometer;1",
+        "dtmi:digitaltwins:rec_3_3:asset:ToiletTank;1",
+        "dtmi:digitaltwins:rec_3_3:asset:Toilet;1",
+        "dtmi:digitaltwins:rec_3_3:asset:UrinalFlushometer;1",
+        "dtmi:digitaltwins:rec_3_3:asset:UrinalWaterless;1",
+        "dtmi:digitaltwins:rec_3_3:asset:Urinal;1",
+        "dtmi:digitaltwins:rec_3_3:asset:PlumbingFixture;1",
+        "dtmi:digitaltwins:rec_3_3:asset:DomesticWaterPump;1",
+        "dtmi:digitaltwins:rec_3_3:asset:EjectorPump;1",
+        "dtmi:digitaltwins:rec_3_3:asset:IrrigationPump;1",
+        "dtmi:digitaltwins:rec_3_3:asset:SumpPump;1",
+        "dtmi:digitaltwins:rec_3_3:asset:PlumbingPump;1",
+        "dtmi:digitaltwins:rec_3_3:asset:PlumbingExpansionTank;1",
+        "dtmi:digitaltwins:rec_3_3:asset:PlumbingStorageTank;1",
+        "dtmi:digitaltwins:rec_3_3:asset:PlumbingTank;1",
+        "dtmi:digitaltwins:rec_3_3:asset:PlumbingBackflowPreventer;1",
+        "dtmi:digitaltwins:rec_3_3:asset:PlumbingBalancingValve;1",
+        "dtmi:digitaltwins:rec_3_3:asset:PlumbingCheckValve;1",
+        "dtmi:digitaltwins:rec_3_3:asset:PlumbingGlobeValve;1",
+        "dtmi:digitaltwins:rec_3_3:asset:PlumbingPressureReducingStation;1",
+        "dtmi:digitaltwins:rec_3_3:asset:PlumbingPressureReducingValve;1",
+        "dtmi:digitaltwins:rec_3_3:asset:PlumbingShutOffValve;1",
+        "dtmi:digitaltwins:rec_3_3:asset:PlumbingSolenoidValve;1",
+        "dtmi:digitaltwins:rec_3_3:asset:PlumbingValve;1",
+        "dtmi:digitaltwins:rec_3_3:asset:PlumbingWaterTreatment;1",
+        "dtmi:digitaltwins:rec_3_3:asset:ElectricTanklessWaterHeater;1",
+        "dtmi:digitaltwins:rec_3_3:asset:GasTanklessWaterHeater;1",
+        "dtmi:digitaltwins:rec_3_3:asset:TanklessWaterHeater;1",
+        "dtmi:digitaltwins:rec_3_3:asset:ElectricTankWaterHeater;1",
+        "dtmi:digitaltwins:rec_3_3:asset:GasTankWaterHeater;1",
+        "dtmi:digitaltwins:rec_3_3:asset:TankWaterHeater;1",
+        "dtmi:digitaltwins:rec_3_3:asset:WaterHeater;1",
+        "dtmi:digitaltwins:rec_3_3:asset:PlumbingEquipment;1",
+        "dtmi:digitaltwins:rec_3_3:asset:AccessControlPanel;1",
+        "dtmi:digitaltwins:rec_3_3:asset:AccessReader;1",
+        "dtmi:digitaltwins:rec_3_3:asset:IntercomEntry;1",
+        "dtmi:digitaltwins:rec_3_3:asset:RequestToExitDevice;1",
+        "dtmi:digitaltwins:rec_3_3:asset:AccessControlEquipment;1",
+        "dtmi:digitaltwins:rec_3_3:asset:IntrusionDetectionEquipment;1",
+        "dtmi:digitaltwins:rec_3_3:asset:SurveillanceCamera;1",
+        "dtmi:digitaltwins:rec_3_3:asset:SurveillanceNVR;1",
+        "dtmi:digitaltwins:rec_3_3:asset:VideoSurveillanceEquipment;1",
+        "dtmi:digitaltwins:rec_3_3:asset:SecurityEquipment;1",
+        "dtmi:digitaltwins:rec_3_3:asset:Equipment;1",
+        "dtmi:digitaltwins:rec_3_3:asset:Bed;1",
+        "dtmi:digitaltwins:rec_3_3:asset:Chair;1",
+        "dtmi:digitaltwins:rec_3_3:asset:Furniture;1",
+        "dtmi:digitaltwins:rec_3_3:core:Asset;1",
+        "dtmi:digitaltwins:rec_3_3:building:Balcony;1",
+        "dtmi:digitaltwins:rec_3_3:building:Facade;1",
+        "dtmi:digitaltwins:rec_3_3:building:Floor;1",
+        "dtmi:digitaltwins:rec_3_3:building:RoofInner;1",
+        "dtmi:digitaltwins:rec_3_3:building:RoofOuter;1",
+        "dtmi:digitaltwins:rec_3_3:building:Slab;1",
+        "dtmi:digitaltwins:rec_3_3:building:Terrace;1",
+        "dtmi:digitaltwins:rec_3_3:building:VirtualBuildingComponent;1",
+        "dtmi:digitaltwins:rec_3_3:building:WallInner;1",
+        "dtmi:digitaltwins:rec_3_3:building:Wall;1",
+        "dtmi:digitaltwins:rec_3_3:core:BuildingComponent;1",
+        "dtmi:digitaltwins:rec_3_3:device:Actuator;1",
+        "dtmi:digitaltwins:rec_3_3:core:CO2Setpoint;1",
+        "dtmi:digitaltwins:rec_3_3:core:FlowSetpoint;1",
+        "dtmi:digitaltwins:rec_3_3:core:HumiditySetpoint;1",
+        "dtmi:digitaltwins:rec_3_3:core:TemperatureSetpoint;1",
+        "dtmi:digitaltwins:rec_3_3:core:Setpoint;1",
+        "dtmi:digitaltwins:rec_3_3:core:Parameter;1",
+        "dtmi:digitaltwins:rec_3_3:core:CO2Sensor;1",
+        "dtmi:digitaltwins:rec_3_3:core:ElectricalEnergySensor;1",
+        "dtmi:digitaltwins:rec_3_3:core:ThermalEnergySensor;1",
+        "dtmi:digitaltwins:rec_3_3:core:EnergySensor;1",
+        "dtmi:digitaltwins:rec_3_3:core:AirFlowSensor;1",
+        "dtmi:digitaltwins:rec_3_3:core:MassFlowSensor;1",
+        "dtmi:digitaltwins:rec_3_3:core:WaterFlowSensor;1",
+        "dtmi:digitaltwins:rec_3_3:core:FlowSensor;1",
+        "dtmi:digitaltwins:rec_3_3:core:HumiditySensor;1",
+        "dtmi:digitaltwins:rec_3_3:core:IlluminanceSensor;1",
+        "dtmi:digitaltwins:rec_3_3:core:MassSensor;1",
+        "dtmi:digitaltwins:rec_3_3:core:MotionSensor;1",
+        "dtmi:digitaltwins:rec_3_3:core:InferredOccupancySensor;1",
+        "dtmi:digitaltwins:rec_3_3:core:OccupancySensor;1",
+        "dtmi:digitaltwins:rec_3_3:core:PeopleCountSensor;1",
+        "dtmi:digitaltwins:rec_3_3:core:ElectricalPowerSensor;1",
+        "dtmi:digitaltwins:rec_3_3:core:ThermalPowerSensor;1",
+        "dtmi:digitaltwins:rec_3_3:core:PowerSensor;1",
+        "dtmi:digitaltwins:rec_3_3:core:PressureSensor;1",
+        "dtmi:digitaltwins:rec_3_3:core:DamperStatusSensor;1",
+        "dtmi:digitaltwins:rec_3_3:core:FanStatusSensor;1",
+        "dtmi:digitaltwins:rec_3_3:core:FireExtinguisherRemovedSensor;1",
+        "dtmi:digitaltwins:rec_3_3:core:FireExtinguisherTroubleSensor;1",
+        "dtmi:digitaltwins:rec_3_3:core:LeakSensor;1",
+        "dtmi:digitaltwins:rec_3_3:core:StatusSensor;1",
+        "dtmi:digitaltwins:rec_3_3:core:AirTemperatureSensor;1",
+        "dtmi:digitaltwins:rec_3_3:core:WaterTemperatureSensor;1",
+        "dtmi:digitaltwins:rec_3_3:core:TemperatureSensor;1",
+        "dtmi:digitaltwins:rec_3_3:core:TVOCSensor;1",
+        "dtmi:digitaltwins:rec_3_3:core:VolumeSensor;1",
+        "dtmi:digitaltwins:rec_3_3:core:Sensor;1",
+        "dtmi:digitaltwins:rec_3_3:core:Capability;1",
+        "dtmi:digitaltwins:rec_3_3:asset:ArchitecturalAssetCollection;1",
+        "dtmi:digitaltwins:rec_3_3:asset:ConveyanceEquipmentGroup;1",
+        "dtmi:digitaltwins:rec_3_3:asset:ElectricalEquipmentGroup;1",
+        "dtmi:digitaltwins:rec_3_3:asset:SprinklerPumpGroup;1",
+        "dtmi:digitaltwins:rec_3_3:asset:FireProtectionEquipmentGroup;1",
+        "dtmi:digitaltwins:rec_3_3:asset:ChilledWaterPlant;1",
+        "dtmi:digitaltwins:rec_3_3:asset:HVACPumpGroup;1",
+        "dtmi:digitaltwins:rec_3_3:asset:HVACEquipmentGroup;1",
+        "dtmi:digitaltwins:rec_3_3:asset:ICTEquipmentGroup;1",
+        "dtmi:digitaltwins:rec_3_3:asset:LightingEquipmentGroup;1",
+        "dtmi:digitaltwins:rec_3_3:asset:MeterEquipmentGroup;1",
+        "dtmi:digitaltwins:rec_3_3:asset:PlumbingPumpGroup;1",
+        "dtmi:digitaltwins:rec_3_3:asset:PlumbingEquipmentGroup;1",
+        "dtmi:digitaltwins:rec_3_3:asset:SecurityEquipmentGroup;1",
+        "dtmi:digitaltwins:rec_3_3:asset:EquipmentGroup;1",
+        "dtmi:digitaltwins:rec_3_3:asset:BACnetNetworkSystem;1",
+        "dtmi:digitaltwins:rec_3_3:asset:ModbusNetworkSystem;1",
+        "dtmi:digitaltwins:rec_3_3:asset:OPCDANetworkSystem;1",
+        "dtmi:digitaltwins:rec_3_3:asset:OPCUANetworkSystem;1",
+        "dtmi:digitaltwins:rec_3_3:asset:ControlsSystem;1",
+        "dtmi:digitaltwins:rec_3_3:asset:ACElectricalSystem;1",
+        "dtmi:digitaltwins:rec_3_3:asset:DCElectricalSystem;1",
+        "dtmi:digitaltwins:rec_3_3:asset:ElectricalSystem;1",
+        "dtmi:digitaltwins:rec_3_3:asset:FireAlarmSystem;1",
+        "dtmi:digitaltwins:rec_3_3:asset:SprinklerSystem;1",
+        "dtmi:digitaltwins:rec_3_3:asset:FireSuppressionSystem;1",
+        "dtmi:digitaltwins:rec_3_3:asset:FireProtectionSystem;1",
+        "dtmi:digitaltwins:rec_3_3:asset:HVACOutsideAirSystem;1",
+        "dtmi:digitaltwins:rec_3_3:asset:HVACReturnAirSystem;1",
+        "dtmi:digitaltwins:rec_3_3:asset:HVACSupplyAirSystem;1",
+        "dtmi:digitaltwins:rec_3_3:asset:HVACConditionedAirSystem;1",
+        "dtmi:digitaltwins:rec_3_3:asset:HVACGreaseExhaustAirSystem;1",
+        "dtmi:digitaltwins:rec_3_3:asset:HVACExhaustAirSystem;1",
+        "dtmi:digitaltwins:rec_3_3:asset:HVACTransferAirSystem;1",
+        "dtmi:digitaltwins:rec_3_3:asset:HVACAirSystem;1",
+        "dtmi:digitaltwins:rec_3_3:asset:HVACRefrigerantSystem;1",
+        "dtmi:digitaltwins:rec_3_3:asset:HVACChilledWaterSystem;1",
+        "dtmi:digitaltwins:rec_3_3:asset:HVACCondenserWaterSystem;1",
+        "dtmi:digitaltwins:rec_3_3:asset:HVACHotWaterSystem;1",
+        "dtmi:digitaltwins:rec_3_3:asset:HVACHumidificationSystem;1",
+        "dtmi:digitaltwins:rec_3_3:asset:HVACWaterSystem;1",
+        "dtmi:digitaltwins:rec_3_3:asset:HVACSystem;1",
+        "dtmi:digitaltwins:rec_3_3:asset:ITEthernetNetworkSystem;1",
+        "dtmi:digitaltwins:rec_3_3:asset:ITSystem;1",
+        "dtmi:digitaltwins:rec_3_3:asset:LightingSystem;1",
+        "dtmi:digitaltwins:rec_3_3:asset:StormDrainageSystem;1",
+        "dtmi:digitaltwins:rec_3_3:asset:WasteVentDrainageSystem;1",
+        "dtmi:digitaltwins:rec_3_3:asset:DrainageSystem;1",
+        "dtmi:digitaltwins:rec_3_3:asset:FuelOilSystem;1",
+        "dtmi:digitaltwins:rec_3_3:asset:NaturalGasSystem;1",
+        "dtmi:digitaltwins:rec_3_3:asset:PropaneSystem;1",
+        "dtmi:digitaltwins:rec_3_3:asset:SteamSystem;1",
+        "dtmi:digitaltwins:rec_3_3:asset:GasSystem;1",
+        "dtmi:digitaltwins:rec_3_3:asset:DomesticColdWaterSystem;1",
+        "dtmi:digitaltwins:rec_3_3:asset:DomesticHotWaterRecircSystem;1",
+        "dtmi:digitaltwins:rec_3_3:asset:DomesticHotWaterSystem;1",
+        "dtmi:digitaltwins:rec_3_3:asset:DomesticNonPotableWaterSystem;1",
+        "dtmi:digitaltwins:rec_3_3:asset:DomesticWaterSystem;1",
+        "dtmi:digitaltwins:rec_3_3:asset:IrrigationSystem;1",
+        "dtmi:digitaltwins:rec_3_3:asset:WaterFeatureSystem;1",
+        "dtmi:digitaltwins:rec_3_3:asset:PlumbingWaterSystem;1",
+        "dtmi:digitaltwins:rec_3_3:asset:PlumbingSystem;1",
+        "dtmi:digitaltwins:rec_3_3:asset:System;1",
+        "dtmi:digitaltwins:rec_3_3:asset:EquipmentCollection;1",
+        "dtmi:digitaltwins:rec_3_3:asset:FurnitureCollection;1",
+        "dtmi:digitaltwins:rec_3_3:core:AssetCollection;1",
+        "dtmi:digitaltwins:rec_3_3:core:Portfolio;1",
+        "dtmi:digitaltwins:rec_3_3:core:Apartment;1",
+        "dtmi:digitaltwins:rec_3_3:core:Campus;1",
+        "dtmi:digitaltwins:rec_3_3:core:RealEstate;1",
+        "dtmi:digitaltwins:rec_3_3:business:TenantUnit;1",
+        "dtmi:digitaltwins:rec_3_3:core:SpaceCollection;1",
+        "dtmi:digitaltwins:rec_3_3:core:Collection;1",
+        "dtmi:digitaltwins:rec_3_3:business:LeaseContract;1",
+        "dtmi:digitaltwins:rec_3_3:core:Document;1",
+        "dtmi:digitaltwins:rec_3_3:business:Lease;1",
+        "dtmi:digitaltwins:rec_3_3:core:Event;1",
+        "dtmi:digitaltwins:rec_3_3:core:LogicalController;1",
+        "dtmi:digitaltwins:rec_3_3:core:LogicalGateway;1",
+        "dtmi:digitaltwins:rec_3_3:core:LogicalServer;1",
+        "dtmi:digitaltwins:rec_3_3:core:LogicalDevice;1",
+        "dtmi:digitaltwins:rec_3_3:business:Role;1",
+        "dtmi:digitaltwins:rec_3_3:building:Hospital;1",
+        "dtmi:digitaltwins:rec_3_3:building:School;1",
+        "dtmi:digitaltwins:rec_3_3:building:ShoppingMall;1",
+        "dtmi:digitaltwins:rec_3_3:building:Stadium;1",
+        "dtmi:digitaltwins:rec_3_3:building:VirtualBuilding;1",
+        "dtmi:digitaltwins:rec_3_3:core:Building;1",
+        "dtmi:digitaltwins:rec_3_3:SpaceArea;1",
+        "dtmi:digitaltwins:rec_3_3:SpaceCapacity;1",
+        "dtmi:digitaltwins:rec_3_3:SpaceCO2;1",
+        "dtmi:digitaltwins:rec_3_3:SpaceHumidity;1",
+        "dtmi:digitaltwins:rec_3_3:SpaceOccupancy;1",
+        "dtmi:digitaltwins:rec_3_3:SpaceTemperature;1",
+        "dtmi:digitaltwins:rec_3_3:core:Land;1",
+        "dtmi:digitaltwins:rec_3_3:core:Level;1",
+        "dtmi:digitaltwins:rec_3_3:core:Region;1",
+        "dtmi:digitaltwins:rec_3_3:building:Atrium;1",
+        "dtmi:digitaltwins:rec_3_3:building:Auditorium;1",
+        "dtmi:digitaltwins:rec_3_3:building:MailRoom;1",
+        "dtmi:digitaltwins:rec_3_3:building:BackOffice;1",
+        "dtmi:digitaltwins:rec_3_3:building:Bathroom;1",
+        "dtmi:digitaltwins:rec_3_3:building:Bedroom;1",
+        "dtmi:digitaltwins:rec_3_3:building:Cinema;1",
+        "dtmi:digitaltwins:rec_3_3:building:CleaningRoom;1",
+        "dtmi:digitaltwins:rec_3_3:building:CloakRoom;1",
+        "dtmi:digitaltwins:rec_3_3:building:ConferenceRoom;1",
+        "dtmi:digitaltwins:rec_3_3:building:ConversationRoom;1",
+        "dtmi:digitaltwins:rec_3_3:building:CopyingRoom;1",
+        "dtmi:digitaltwins:rec_3_3:building:DressingRoom;1",
+        "dtmi:digitaltwins:rec_3_3:building:Classroom;1",
+        "dtmi:digitaltwins:rec_3_3:building:GroupRoom;1",
+        "dtmi:digitaltwins:rec_3_3:building:SmallStudyRoom;1",
+        "dtmi:digitaltwins:rec_3_3:building:EducationalRoom;1",
+        "dtmi:digitaltwins:rec_3_3:building:ElevatorRoom;1",
+        "dtmi:digitaltwins:rec_3_3:building:ElevatorShaft;1",
+        "dtmi:digitaltwins:rec_3_3:building:MainEntrance;1",
+        "dtmi:digitaltwins:rec_3_3:building:ServiceEntrance;1",
+        "dtmi:digitaltwins:rec_3_3:building:Entrance;1",
+        "dtmi:digitaltwins:rec_3_3:building:ExerciseRoom;1",
+        "dtmi:digitaltwins:rec_3_3:building:ExhibitionRoom;1",
+        "dtmi:digitaltwins:rec_3_3:building:BarRoom;1",
+        "dtmi:digitaltwins:rec_3_3:building:CafeteriaRoom;1",
+        "dtmi:digitaltwins:rec_3_3:building:CookingRoom;1",
+        "dtmi:digitaltwins:rec_3_3:building:DiningRoom;1",
+        "dtmi:digitaltwins:rec_3_3:building:DishingRoom;1",
+        "dtmi:digitaltwins:rec_3_3:building:Pentry;1",
+        "dtmi:digitaltwins:rec_3_3:building:FoodHandlingRoom;1",
+        "dtmi:digitaltwins:rec_3_3:building:BicycleGarage;1",
+        "dtmi:digitaltwins:rec_3_3:building:ParkingSlotCold;1",
+        "dtmi:digitaltwins:rec_3_3:building:ParkingSlotWarm;1",
+        "dtmi:digitaltwins:rec_3_3:building:Garage;1",
+        "dtmi:digitaltwins:rec_3_3:building:Hallway;1",
+        "dtmi:digitaltwins:rec_3_3:building:LaboratoryDry;1",
+        "dtmi:digitaltwins:rec_3_3:building:LaboratoryWet;1",
+        "dtmi:digitaltwins:rec_3_3:building:Laboratory;1",
+        "dtmi:digitaltwins:rec_3_3:building:LaundryRoom;1",
+        "dtmi:digitaltwins:rec_3_3:building:Library;1",
+        "dtmi:digitaltwins:rec_3_3:building:LivingRoom;1",
+        "dtmi:digitaltwins:rec_3_3:building:LoadingReceivingRoom;1",
+        "dtmi:digitaltwins:rec_3_3:building:MeditationRoom;1",
+        "dtmi:digitaltwins:rec_3_3:building:MothersRoom;1",
+        "dtmi:digitaltwins:rec_3_3:building:MultiPurposeRoom;1",
+        "dtmi:digitaltwins:rec_3_3:building:OfficeLandscape;1",
+        "dtmi:digitaltwins:rec_3_3:building:OfficeRoom;1",
+        "dtmi:digitaltwins:rec_3_3:building:PhoneBooth;1",
+        "dtmi:digitaltwins:rec_3_3:building:Office;1",
+        "dtmi:digitaltwins:rec_3_3:building:DisabledToilet;1",
+        "dtmi:digitaltwins:rec_3_3:building:Sauna;1",
+        "dtmi:digitaltwins:rec_3_3:building:ShowerRoom;1",
+        "dtmi:digitaltwins:rec_3_3:building:Toilet;1",
+        "dtmi:digitaltwins:rec_3_3:building:PersonalHygiene;1",
+        "dtmi:digitaltwins:rec_3_3:building:Reception;1",
+        "dtmi:digitaltwins:rec_3_3:building:RecordingRoom;1",
+        "dtmi:digitaltwins:rec_3_3:building:RecreationalRoom;1",
+        "dtmi:digitaltwins:rec_3_3:building:RestingRoom;1",
+        "dtmi:digitaltwins:rec_3_3:building:FittingRoom;1",
+        "dtmi:digitaltwins:rec_3_3:building:RetailRoom;1",
+        "dtmi:digitaltwins:rec_3_3:building:SecurityRoom;1",
+        "dtmi:digitaltwins:rec_3_3:building:ServiceShaft;1",
+        "dtmi:digitaltwins:rec_3_3:building:ShelterGasLock;1",
+        "dtmi:digitaltwins:rec_3_3:building:ShelterRoom;1",
+        "dtmi:digitaltwins:rec_3_3:building:Shelter;1",
+        "dtmi:digitaltwins:rec_3_3:building:StaffRoom;1",
+        "dtmi:digitaltwins:rec_3_3:building:Stairwell;1",
+        "dtmi:digitaltwins:rec_3_3:building:Storage;1",
+        "dtmi:digitaltwins:rec_3_3:building:Theater;1",
+        "dtmi:digitaltwins:rec_3_3:building:TreatmentWaitingRoom;1",
+        "dtmi:digitaltwins:rec_3_3:building:TreatmentRoom;1",
+        "dtmi:digitaltwins:rec_3_3:building:Cabinet;1",
+        "dtmi:digitaltwins:rec_3_3:building:TelecommunicationRoom;1",
+        "dtmi:digitaltwins:rec_3_3:building:CableRoom;1",
+        "dtmi:digitaltwins:rec_3_3:building:ClimateControlRoom;1",
+        "dtmi:digitaltwins:rec_3_3:building:DataServerRoom;1",
+        "dtmi:digitaltwins:rec_3_3:building:ElectricityRoom;1",
+        "dtmi:digitaltwins:rec_3_3:building:SprinklerRoom;1",
+        "dtmi:digitaltwins:rec_3_3:building:UtilitiesRoom;1",
+        "dtmi:digitaltwins:rec_3_3:building:WasteManagementRoom;1",
+        "dtmi:digitaltwins:rec_3_3:building:Workshop;1",
+        "dtmi:digitaltwins:rec_3_3:core:Room;1",
+        "dtmi:digitaltwins:rec_3_3:core:SubBuilding;1",
+        "dtmi:digitaltwins:rec_3_3:core:HVACZone;1",
+        "dtmi:digitaltwins:rec_3_3:core:Workspace;1",
+        "dtmi:digitaltwins:rec_3_3:core:Zone;1",
+        "dtmi:digitaltwins:rec_3_3:core:Space;1"
+    ],
+    "twins": [{
+            "id": "Building121",
+            "dtmi": "dtmi:digitaltwins:rec_3_3:core:Building;1",
+            "properties": {
+                "CO2": {
+                    "$metadata": {}
+                },
+                "area": {
+                    "$metadata": {}
+                },
+                "capacity": {
+                    "$metadata": {}
+                },
+                "humidity": {
+                    "$metadata": {}
+                },
+                "occupancy": {
+                    "$metadata": {}
+                },
+                "temperature": {
+                    "$metadata": {}
+                }
+            }
+        },
+        {
+            "id": "Level1",
+            "dtmi": "dtmi:digitaltwins:rec_3_3:core:Level;1",
+            "properties": {
+                "CO2": {
+                    "$metadata": {}
+                },
+                "area": {
+                    "$metadata": {}
+                },
+                "capacity": {
+                    "$metadata": {}
+                },
+                "humidity": {
+                    "$metadata": {}
+                },
+                "levelNumber": 1,
+                "occupancy": {
+                    "$metadata": {}
+                },
+                "temperature": {
+                    "$metadata": {}
+                }
+            },
+            "relationships": [{
+                "id": "edge",
+                "type": "isPartOf",
+                "targetTwinId": "Building121"
+            }]
+        },
+        {
+            "id": "VAV.L1.01",
+            "dtmi": "dtmi:digitaltwins:rec_3_3:asset:VAVBox;1",
+            "properties": {
+                "ductInlet": {
+                    "$metadata": {}
+                }
+            },
+            "relationships": [{
+                    "id": "edge",
+                    "type": "locatedIn",
+                    "targetTwinId": "Room101"
+                },
+                {
+                    "id": "edge1",
+                    "type": "hasCapability",
+                    "targetTwinId": "Temperature1"
+                }
+            ]
+        },
+        {
+            "id": "VAV.L1.02",
+            "dtmi": "dtmi:digitaltwins:rec_3_3:asset:VAVBox;1",
+            "properties": {
+                "ductInlet": {
+                    "$metadata": {}
+                },
+                "serialNumber": "2561A5510"
+            },
+            "relationships": [{
+                    "id": "edge",
+                    "type": "locatedIn",
+                    "targetTwinId": "Room102"
+                },
+                {
+                    "id": "edge2",
+                    "type": "hasCapability",
+                    "targetTwinId": "Temperature2"
+                }
+            ]
+        },
+        {
+            "id": "VAV.L1.03",
+            "dtmi": "dtmi:digitaltwins:rec_3_3:asset:VAVBox;1",
+            "properties": {
+                "ductInlet": {
+                    "$metadata": {}
+                },
+                "serialNumber": "2561A5510"
+            },
+            "relationships": [{
+                    "id": "edge",
+                    "type": "locatedIn",
+                    "targetTwinId": "Room103"
+                },
+                {
+                    "id": "edge3",
+                    "type": "hasCapability",
+                    "targetTwinId": "Temperature3"
+                }
+            ]
+        },
+        {
+            "id": "Room101",
+            "dtmi": "dtmi:digitaltwins:rec_3_3:building:OfficeRoom;1",
+            "properties": {
+                "CO2": {
+                    "$metadata": {}
+                },
+                "area": {
+                    "$metadata": {}
+                },
+                "capacity": {
+                    "$metadata": {}
+                },
+                "humidity": {
+                    "$metadata": {}
+                },
+                "occupancy": {
+                    "$metadata": {}
+                },
+                "temperature": {
+                    "$metadata": {}
+                }
+            },
+            "relationships": [{
+                    "id": "edge",
+                    "type": "isPartOf",
+                    "targetTwinId": "Level1"
+                },
+                {
+                    "id": "edge4",
+                    "type": "hasCapability",
+                    "targetTwinId": "TemperatureR"
+                }
+            ]
+        },
+        {
+            "id": "Room102",
+            "dtmi": "dtmi:digitaltwins:rec_3_3:building:OfficeRoom;1",
+            "properties": {
+                "CO2": {
+                    "$metadata": {}
+                },
+                "area": {
+                    "$metadata": {}
+                },
+                "capacity": {
+                    "$metadata": {}
+                },
+                "humidity": {
+                    "$metadata": {}
+                },
+                "occupancy": {
+                    "$metadata": {}
+                },
+                "temperature": {
+                    "$metadata": {}
+                }
+            },
+            "relationships": [{
+                "id": "edge",
+                "type": "isPartOf",
+                "targetTwinId": "Level1"
+            }]
+        },
+        {
+            "id": "Room103",
+            "dtmi": "dtmi:digitaltwins:rec_3_3:building:OfficeRoom;1",
+            "properties": {
+                "CO2": {
+                    "$metadata": {}
+                },
+                "area": {
+                    "$metadata": {}
+                },
+                "capacity": {
+                    "$metadata": {}
+                },
+                "humidity": {
+                    "$metadata": {}
+                },
+                "occupancy": {
+                    "$metadata": {}
+                },
+                "temperature": {
+                    "$metadata": {}
+                }
+            },
+            "relationships": [{
+                "id": "edge",
+                "type": "isPartOf",
+                "targetTwinId": "Level1"
+            }]
+        },
+        {
+            "id": "Temperature1",
+            "dtmi": "dtmi:digitaltwins:rec_3_3:core:TemperatureSensor;1"
+        },
+        {
+            "id": "Temperature2",
+            "dtmi": "dtmi:digitaltwins:rec_3_3:core:TemperatureSensor;1"
+        },
+        {
+            "id": "Temperature3",
+            "dtmi": "dtmi:digitaltwins:rec_3_3:core:TemperatureSensor;1"
+        },
+        {
+            "id": "TemperatureR",
+            "dtmi": "dtmi:digitaltwins:rec_3_3:core:TemperatureSensor;1"
+        }
+    ]
+}
