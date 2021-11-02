@@ -77,7 +77,5 @@
       "schema": "dtmi:azure:DeviceManagement:DeviceInformation;1"
     }
   ],
-  "displayName": {
-    "en": "Temperature Controller"
-  }
+  "displayName": "Temperature Controller"
 }
