@@ -7,7 +7,7 @@
     {
       "@type": "Telemetry",
       "name": "temperature",
-      "schema": "double"
+      "schema": "point"
     },
     {
       "@type": "Property",
