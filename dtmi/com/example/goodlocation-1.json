@@ -1,6 +1,6 @@
 {
   "@context": "dtmi:dtdl:context;2",
-  "@id": "dtmi:com:example:wronglocation;1",
+  "@id": "dtmi:com:example:goodlocation;1",
   "@type": "Interface",
   "displayName": "wronglocation",
   "contents": [
