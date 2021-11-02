@@ -19,8 +19,11 @@
       "name": "reboot",
       "request": {
         "name": "delay",
-        "schema": "integer"
+        "schema": {
+          "@type": "Array",
+          "elementSchema": "integer"
+        }
       }
     }
-}
+  ]
 }
