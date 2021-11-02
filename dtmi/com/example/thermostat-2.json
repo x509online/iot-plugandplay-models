@@ -1,8 +1,8 @@
 {
   "@context": "dtmi:dtdl:context;2",
   "@id": "dtmi:com:example:Thermostat;2",
-  "@type": "Interface",
   "displayName": "Thermostat",
+  "@type": "Interface",
   "description": "Reports current temperature and provides desired temperature control.",
   "contents": [
     {
