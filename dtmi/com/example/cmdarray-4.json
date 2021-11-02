@@ -1,0 +1,18 @@
+{
+    "@context": "dtmi:dtdl:context;2",
+    "@id": "dtmi:com:example:cmdArray;4",
+    "@type": "Interface",
+    "contents": [
+      {
+        "@type": "Command",
+        "name": "aCommand",
+        "request": {
+          "name": "req",
+          "schema": {
+            "@type": "Array",
+            "elementSchema": "string"
+          }
+        }
+      }
+    ]
+  }
